@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    height: 32px;
+    background-color: hsl(215, 28%, 17%);
+    
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+    font-family: Roboto;
+    color: white;
+    align-items: center;
+}
