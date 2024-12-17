@@ -41,6 +41,7 @@ p {
 button {
     color: #F9FAF8;
     background-color: dodgerblue;
+    border-radius: 8px;
 }
 
 .heroimage {
@@ -57,4 +58,30 @@ h2 {
 
 .figurecontainer {
     display: flex;
+}
+
+figure img {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    
+}
+blockquote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+
+}
+
+footer p {
+    color: #F9FAF8;
+    font-size: 16px;
 }
