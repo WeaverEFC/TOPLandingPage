@@ -2,11 +2,15 @@
     font-family: Roboto;
 }
 
+html body {
+    margin: 0;
+}
+
 header {
     display: flex;
     height: 32px;
     background-color: hsl(215, 28%, 17%);
-    
+    margin: none;
     
 }
 
@@ -84,11 +88,13 @@ figure img {
 .quote {
     background-color: #e5e7eb;
     
+    
 }
 blockquote p {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    padding: 50px;
 }
 
 h3 {
